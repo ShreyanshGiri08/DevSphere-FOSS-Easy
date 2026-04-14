@@ -6,7 +6,7 @@ int main() {
     while(t--){
         long long n, k;
         cin >> n >> k;
-        cout << k + (k / n) << endl; 
+        cout << k + (k - 1) / (n - 1) << endl;
     }
     return 0;
 }
